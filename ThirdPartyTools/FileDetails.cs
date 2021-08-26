@@ -1,19 +1,24 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ThirdPartyTools
 {
     public class FileDetails
     {
-        private readonly Random _random = new Random();
+        private readonly Random _version = new Random();
+        private readonly Random _size = new Random();
 
-        public string Version(string filePath)
+        public int Version(string str)
         {
-            return string.Format("{0}.{1}.{2}", _random.Next(5), _random.Next(8), _random.Next(22));
+            return _version.Next();
         }
 
-        public int Size(string filePath)
+        public int Size(string str)
         {
-            return _random.Next(100000) + 1000000;
+            return _size.Next();
         }
     }
 }

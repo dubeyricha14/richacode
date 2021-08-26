@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66BAF37D-5095-498C-A988-0FD52F25C096}</ProjectGuid>
+    <ProjectGuid>{F1851A4B-71DE-4F7F-B214-B002676E79EC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>FileData</RootNamespace>
     <AssemblyName>FileData</AssemblyName>
@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ThirdPartyTools\ThirdPartyTools.csproj">
-      <Project>{510149c0-2b4d-4f90-ba91-26bd0bbdd0f6}</Project>
+      <Project>{200e9ef2-6bf7-48ef-b252-08e2c3df2823}</Project>
       <Name>ThirdPartyTools</Name>
     </ProjectReference>
   </ItemGroup>
